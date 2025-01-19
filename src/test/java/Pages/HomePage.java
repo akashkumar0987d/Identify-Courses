@@ -34,7 +34,6 @@ public class HomePage extends Base {
     // Method to open the URL and maximize the browser window
     public void openURL() {
         driver.get(prop.getProperty("url"));
-        driver.manage().window().maximize();
     }
     
     // Method to get the current URL

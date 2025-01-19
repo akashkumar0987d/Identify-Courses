@@ -2,14 +2,13 @@ package Pages;
 
 import org.openqa.selenium.WebDriver;
 
-import Base.Base;
 import FillingForms.BaseFillingForm;
 import FillingForms.FillingFormSuccessfully;
 import FillingForms.FillingFormWithEmptyFeilds;
 import FillingForms.FillingFormWithInvalidEmail;
 import FillingForms.FillingFormWithInvalidPhone;
 
-public class FillingForm extends Base {
+public class FillingForm {
 
     // Objects for different form filling scenarios
     FillingFormWithInvalidPhone obj1; 

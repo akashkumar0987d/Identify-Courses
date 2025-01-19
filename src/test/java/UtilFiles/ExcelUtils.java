@@ -4,16 +4,15 @@ package UtilFiles;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtils {
-    private Workbook workbook;
-    private Sheet sheet;
+    private XSSFWorkbook workbook;
+    private XSSFSheet sheet;
 
     // Constructor to initialize workbook and sheet
     public ExcelUtils(String filePath, String sheetName) {
@@ -28,8 +27,8 @@ public class ExcelUtils {
 
     // Get data from a specific cell
     public String getCellData(int row, int col) {
-        Row excelRow = sheet.getRow(row);
-        Cell cell = excelRow.getCell(col);
+        XSSFRow excelRow = sheet.getRow(row);
+        XSSFCell cell = excelRow.getCell(col);
         DataFormatter formatter = new DataFormatter();
         return formatter.formatCellValue(cell);
     }

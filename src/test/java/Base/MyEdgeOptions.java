@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 
 public class MyEdgeOptions {
 
-	public EdgeOptions setChromeOptions() {
+	public EdgeOptions setEdgeOptions() {
 
 		EdgeOptions options = new EdgeOptions();
 

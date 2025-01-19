@@ -10,9 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import Base.Base;
-
-public class FillingFormWithEmptyFeilds extends Base {
+public class FillingFormWithEmptyFeilds {
     
     WebDriver driver;
 

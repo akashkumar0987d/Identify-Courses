@@ -6,10 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import Base.Base;
 import UtilFiles.ExcelUtils;
 
-public class BaseFillingForm extends Base {
+public class BaseFillingForm {
     
     private String filepath;
     private String sheetName;

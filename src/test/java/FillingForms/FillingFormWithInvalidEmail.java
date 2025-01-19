@@ -10,9 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import Base.Base;
-
-public class FillingFormWithInvalidEmail extends Base {
+public class FillingFormWithInvalidEmail {
 
     WebDriver driver;
 

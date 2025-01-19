@@ -40,7 +40,7 @@ public class Base {
         // Set up EdgeDriver if the browser is Edge
         if (br.equalsIgnoreCase("edge")) {
             MyEdgeOptions mep = new MyEdgeOptions();
-            e_options = mep.setChromeOptions();
+            e_options = mep.setEdgeOptions();
             driver = new EdgeDriver(e_options);
         }
         

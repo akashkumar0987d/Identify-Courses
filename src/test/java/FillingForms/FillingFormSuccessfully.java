@@ -8,9 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import Base.Base;
-
-public class FillingFormSuccessfully extends Base {
+public class FillingFormSuccessfully {
 
     WebDriver driver;
 
